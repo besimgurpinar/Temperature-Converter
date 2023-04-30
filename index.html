@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Temperature Converter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <form>
+      <div class="form-group">
+        <label for="temperature">Temperature:</label>
+        <input type="number" id="temperature" name="temperature" required>
+      </div>
+      <div class="form-group">
+        <label for="unit">Unit:</label>
+        <select id="unit" name="unit">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+        </select>
+      </div>
+      <button type="button" id="convert">Convert</button>
+    </form>
+    <div class="result">
+      <p id="result-text"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
